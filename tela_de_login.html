@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+        }
+        div{
+            background-color: #333;
+            border: 3px solid white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px;
+            border-radius: 15px;
+            color: white;
+        } 
+        input{
+            padding: 15px;
+            border-radius: none;
+            outline: none;
+            font-size: 15px;
+        } 
+        button{
+            background-color: #333;
+            border: 3px solid white;
+            border-radius: 15px;
+            padding: 15px;
+            color: white; 
+            width: 100%;
+            font-size: 15px;
+        }
+        button:hover{
+            background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+        <input type="text" placeholder="Nome">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Enviar</button>
+    </div>
+</body>
+</html>
